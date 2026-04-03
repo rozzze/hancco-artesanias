@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     url: "https://hanccoartesanias.vercel.app/",
     siteName: "Hancco Artesanías",
   },
+  verification: {
+    google: "67dok2IJNwwn0U1DnPhKMGSu0ETGwZbQN84sey3mKzk",
+  },
 };
 
 export default function RootLayout({
