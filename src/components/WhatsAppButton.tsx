@@ -17,10 +17,10 @@ export default function WhatsAppButton({ productName, productImage }: WhatsAppBu
 
   // Construimos el link de la imagen usando el origin actual para que sea un enlace absoluto
   const imageUrl = currentOrigin ? `${currentOrigin}${productImage}` : "";
-  
+
   // Mensaje codificado para la URL, incluyendo el salto de línea (%0A)
   const text = `Hola, me interesa el producto: ${productName}.%0A%0AImagen del producto: ${imageUrl}`;
-  const whatsappUrl = `https://wa.me/51978638917?text=${text}`;
+  const whatsappUrl = `https://wa.me/51982287068?text=${text}`;
 
   return (
     <a
