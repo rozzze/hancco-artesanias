@@ -13,125 +13,132 @@ export const products: Product[] = [
   // --- CHOMPAS ---
   {
     id: 1,
-    name: "Chompa Andina Tradicional Lila",
+    name: "Chompa Andina Lila con Motivos de Alpacas",
     price: 120.00,
     category: "Chompas",
     image: "/productos/chompas/chompa1.jpg", // Asegúrate de usar el nombre correcto de tu archivo local
-    description: "Chompa con cierre frontal en tonos lila y blanco. Destaca por su detallado tramado de iconografía andina, incluyendo figuras de alpacas y secuencias geométricas tradicionales. Una prenda clásica y representativa de la artesanía local.",
+    description: "Chompa tejida con cierre frontal en hermosos tonos lila, morado y blanco. Destaca por su detallado tramado horizontal de iconografía andina, incluyendo encantadoras figuras de alpacas y delicadas secuencias geométricas. Con cuello redondo y prácticos bolsillos, es una prenda clásica y abrigadora que resalta la belleza de la artesanía local.",
   },
   {
     id: 3,
-    name: "Casaca Listada Rojo y Negro con Capucha",
+    name: "Chompa con Capucha a Rayas Rojo y Negro",
     price: 110.00,
     category: "Chompas con Capucha",
     image: "/productos/chompas_capucha/chompa_capucha2.jpg",
-    description: "Diseño estructurado que alterna franjas verticales en rojo intenso y negro. Incorpora una cómoda capucha, bolsillos frontales y acabados con sutiles patrones andinos a lo largo del cierre y ribetes. Una opción versátil para el uso regular.",
+    description: "Diseño estructurado que alterna finas franjas verticales en rojo intenso y negro. Incorpora una cómoda capucha, bolsillos frontales y acabados con sutiles patrones geométricos andinos a lo largo del cierre, ribetes y el contorno de la capucha. Una opción versátil y de gran personalidad para el uso diario.",
   },
   {
     id: 4,
-    name: "Casaca Geométrica Multicolor con Capucha",
+    name: "Casaca Negra con Rombos y Detalles Multicolor",
     price: 95.00,
     category: "Chompas con Capucha", // O podrías crear la categoría "Casacas"
     image: "/productos/chompas_capucha/chompa_capucha1.jpg",
-    description: "Prenda de fondo oscuro que resalta por sus vibrantes patrones geométricos en forma de rombo con detalles en tonos cálidos y fríos. Incluye capucha, bolsillos frontales y cierre completo, ofreciendo una combinación funcional y llamativa.",
+    description: "Prenda de fondo negro que deslumbra por sus vibrantes patrones geométricos en forma de rombos multicolores con motivos andinos en su interior. Incluye una cálida capucha, bolsillos frontales y un cierre completo acentuado con ribetes a rayas con los colores del arcoíris. Una prenda funcional, abrigadora y sumamente llamativa.",
   },
   {
     id: 5, // O el número que corresponda en tu secuencia
-    name: "Chompa Andina Negra y Gris con Capucha",
+    name: "Chompa Bicolor con Capucha y Motivos de Alpacas",
     price: 115.00, // Puedes ajustar el precio según tu margen
     category: "Chompas con Capucha",
     image: "/productos/chompas_capucha/chompa_capucha3.png", // Asegúrate de actualizar esto con la ruta final de tu imagen
-    description: "Chompa de fondo negro que destaca por sus patrones geométricos y clásica iconografía andina de alpacas en tonos blanco y gris. Cuenta con cierre frontal completo, una cómoda capucha y prácticos bolsillos delanteros. Los ribetes, puños y el borde del cierre presentan finos detalles artesanales, ofreciendo una prenda abrigadora con un diseño monocromático, elegante y versátil.",
+    description: "Chompa de fondo negro que destaca por su franja superior en tonos blanco y gris claro, adornada con patrones geométricos y la clásica iconografía andina de alpacas. Cuenta con cierre frontal completo, capucha y prácticos bolsillos. Los ribetes y detalles a lo largo del cierre presentan finos acabados artesanales, logrando un estilo monocromático, elegante y versátil.",
   },
   {
     id: 6, // O el número que corresponda en tu secuencia
-    name: "Poncho Rojo con Capucha y Franja Diagonal Geométrica",
+    name: "Poncho Rojo Andino con Cruz Andina y Capucha",
     price: 180.00, // Precio estimado para un poncho artesanal detallado
     category: "Ponchos", // Nueva categoría más específica
     image: "/productos/ponchos/poncho1.png", // Reemplaza con la ruta final de tu imagen
-    description: "Poncho con capucha de lana en un vibrante tono rojo. Destaca por una prominente franja diagonal que cruza el torso, adornada con coloridos motivos geométricos andinos sobre cuadrados blancos y una banda de grecas texturizadas en rojo oscuro. Incorpora un cuello de capucha integrado con forro interior de patrón colorido. El borde inferior presenta una detallada banda de iconografía negra y un denso fleco multicolor, ofreciendo una prenda abrigadora y llena de simbolismo artesanal.",
+    description: "Imponente poncho de color rojo vibrante con capucha. Destaca por una gruesa franja diagonal que cruza el torso, protagonizada por motivos de la cruz andina (chakana) en blanco y negro sobre un fondo de cuadrados coloridos. Adornado con un borde inferior de complejos patrones andinos y un denso fleco multicolor que le aporta movimiento y autenticidad a esta cálida prenda.",
   },
   {
     id: 7, // Ajusta este número según el orden en tu base de datos
-    name: "Chompa Tejida Blanca 'Arequipa'",
+    name: "Chompa de Hilo Crema con Letras 'AREQUIPA'",
     price: 95.00, // Precio sugerido, puedes ajustarlo
-    category: "Chompas", 
+    category: "Chompas",
     image: "/productos/chompas/chompa2.png", // Reemplaza con la ruta final de tu imagen
-    description: "Chompa tejida de cuello redondo en un tono blanco crema. Destaca por llevar la palabra 'AREQUIPA' en el centro del pecho en un cálido color camello, enmarcada por franjas horizontales con sutiles detalles geométricos que se extienden hacia las mangas. Cuenta con pretina, puños y cuello acanalados para un ajuste cómodo y abrigador. Una prenda clásica, versátil y perfecta como recuerdo de la Ciudad Blanca.",
+    description: "Chompa tejida de cuello redondo cerrado en un cálido tono blanco crema. Su diseño clásico resalta por llevar la palabra 'AREQUIPA' tejida en el pecho en un color camello suave, enmarcada sutilmente por líneas horizontales con motivos punteados. Sus acabados acanalados garantizan un ajuste perfecto. Una prenda versátil y atemporal, ideal como recuerdo de la Ciudad Blanca.",
   },
   {
-    id: 8, 
-    name: "Chompa Tejida Negra 'Arequipa'",
-    price: 95.00, 
-    category: "Chompas", 
+    id: 8,
+    name: "Chompa de Cuello Alto Negra con Franja 'AREQUIPA'",
+    price: 95.00,
+    category: "Chompas",
     image: "/productos/chompas/chompa3.png", // Asegúrate de poner la ruta correcta
-    description: "Chompa tejida de cuello alto en color negro profundo. Resalta por una franja horizontal en tono crema a la altura del pecho, donde lleva tejida la palabra 'AREQUIPA' en color camello, delimitada por un sutil patrón de líneas verticales cortas. Sus acabados acanalados en el cuello, puños y pretina aseguran un ajuste estructurado y cálido. Un diseño de gran contraste, ideal para un estilo sobrio y tradicional.",
+    description: "Chompa tejida con elegante cuello alto en color negro profundo. Su diseño presenta un fuerte contraste gracias a una franja horizontal en tono crema a la altura del pecho, donde se lee la palabra 'AREQUIPA' en tono camello. Con pretina, puños y cuello acanalados para un ajuste estructurado y máximo abrigo. Perfecta para un estilo sobrio y moderno.",
   },
   {
-  id: 9, // O el número que corresponda en tu secuencia
-  name: "Chullo Artesanal de Retazos Geométricos Multicolor'",
-  price: 65.00,
-  category: "Chullos",
-  image: "/productos/chullos/chullo3.png", // Asegúrate de guardar la imagen generada con este nombre en tu carpeta de productos
-  description: "Este vibrante chullo presenta un diseño de retazos de diamantes multicolores con bordes texturizados. Las acogedoras orejeras se extienden en largas trenzas con divertidos pompones esponjosos en los extremos, ofreciendo un estilo folclórico y cálido.",
-},
-{
-  id: 10, // O el número que corresponda en tu secuencia
-  name: "Chullo Tradicional Fucsia con Motivos Geométricos",
-  price: 70.00,
-  category: "Chullos", // Nueva categoría para mayor organización
-  image: "/productos/chullos/chullo1.png", // Asegúrate de guardar la imagen generada con este nombre en tu carpeta de productos
-  description: "Este llamativo chullo tejido destaca por su vibrante color fucsia base y sus detalladas franjas horizontales con figuras geométricas y estrellas andinas. Cuenta con orejeras clásicas y está adornado con vistosos pompones multicolores en la punta y en los cordones, perfecto para un estilo auténtico y abrigador.",
-},
-{
-  id: 11, // O el número que corresponda en tu secuencia
-  name: "Gorro Tejido Gris 'Arequipa' con Pompón",
-  price: 60.00,
-  category: "Chullos",
-  image: "/productos/chullos/chullo2.png", // Asegúrate de guardar la imagen generada con este nombre en tu carpeta de productos
-  description: "Este cómodo gorro en tonos grises presenta la palabra 'AREQUIPA' tejida en contraste sobre la banda frontal. Su diseño se complementa con un llamativo patrón geométrico tipo panal en la parte superior y está coronado por un clásico pompón bicolor, ofreciendo una opción sobria, moderna y muy abrigadora.",
-},
+    id: 9, // O el número que corresponda en tu secuencia
+    name: "Chullo Crochet Multicolor con Orejeras y Pompones",
+    price: 65.00,
+    category: "Chullos",
+    image: "/productos/chullos/chullo3.png", // Asegúrate de guardar la imagen generada con este nombre en tu carpeta de productos
+    description: "Colorido chullo tejido a mano con técnica crochet, compuesto por vibrantes figuras geométricas en tonos fucsia, turquesa y rojo. Cuenta con orejeras largas que terminan en trenzas con pompones multicolores, además de un pompón azul en la cima. Una pieza auténtica y llena de alegría, ideal para protegerse del frío con mucho estilo.",
+  },
+  {
+    id: 10, // O el número que corresponda en tu secuencia
+    name: "Chullo Andino Fucsia con Copos de Nieve",
+    price: 70.00,
+    category: "Chullos", // Nueva categoría para mayor organización
+    image: "/productos/chullos/chullo1.png", // Asegúrate de guardar la imagen generada con este nombre en tu carpeta de productos
+    description: "Llamativo chullo de lana en color fucsia brillante, adornado con franjas horizontales de detallados patrones geométricos y motivos de copos de nieve o estrellas andinas en azul y blanco. Incluye clásicas orejeras y está rematado con grandes y vistosos pompones multicolores en la parte superior y en sus cordones. Un accesorio infaltable para el invierno.",
+  },
+  {
+    id: 11, // O el número que corresponda en tu secuencia
+    name: "Gorro Tejido Gris 'AREQUIPA' con Pompón",
+    price: 60.00,
+    category: "Chullos",
+    image: "/productos/chullos/chullo2.png", // Asegúrate de guardar la imagen generada con este nombre en tu carpeta de productos
+    description: "Cómodo y cálido gorro estilo beanie en tonos grises. Presenta la palabra 'AREQUIPA' tejida en letras blancas grandes sobre una banda frontal lisa, coronada por un diseño de panal geométrico en la parte superior. Culmina con un mullido pompón blanco y gris. Una opción moderna y urbana para llevar el recuerdo de Arequipa a todas partes.",
+  },
   // Puedes seguir agregando el resto de tus productos aquí...
 
-{
-  id:12,
-  name: "Poncho Cafe con patrones geométricos",
-  price: 85.00,
-  category: "Ponchos",
-  image: "/productos/ponchos/poncho2.jpg",
-  description: "Poncho de color café con patrones geométricos en un diseño moderno. Ideal para un estilo casual y abrigador."
-},
-{
-  id: 13,
-  name: "Poncho blando con franjas multicolor",
-  price: 90.00,
-  category: "Ponchos",
-  image: "/productos/ponchos/poncho3.jpg",
-  description: "Poncho blando con franjas multicolor. Perfecto para un look tradicional y elegante."
-},
-{
-  id: 14,
-  name: "Poncho de lana azul con diseño andino",
-  price: 100.00,
-  category: "Ponchos",
-  image: "/productos/ponchos/poncho4.jpg",
-  description: "Poncho de lana azul con diseño andino. Perfecto para un look tradicional y elegante."
-},
-{
-  id: 15,
-  name: "Poncho de lana rosada con diseño andino",
-  price: 100.00,
-  category: "Ponchos",
-  image: "/productos/ponchos/poncho5.jpg",
-  description: "Poncho de lana rosada con diseño andino. Perfecto para un look tradicional y elegante."
-},
-{
-  id: 16,
-  name: "Poncho de lana verde con diseño andino",
-  price: 100.00,
-  category: "Ponchos",
-  image: "/productos/ponchos/poncho6.jpg",
-  description: "Poncho de lana verde con diseño andino. Perfecto para un look tradicional y elegante."
-}
-
+  {
+    id: 12,
+    name: "Poncho Café con Capucha y Calendario Inca",
+    price: 85.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho2.jpg",
+    description: "Poncho con capucha en un elegante color café o camello, que rinde homenaje a la herencia inca. Destaca por su majestuoso diseño tejido con figuras de deidades andinas y el calendario inca en tonos crudos. Incluye cordones con borlas en el cuello y flecos en la base, ofreciendo una combinación perfecta de abrigo, tradición y cultura viva."
+  },
+  {
+    id: 13,
+    name: "Poncho Blanco con Capucha y Franjas Laterales",
+    price: 90.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho3.jpg",
+    description: "Poncho con capucha de base blanca prístina que irradia elegancia y sencillez. Su diseño minimalista se ve realzado por finas franjas verticales tejidas con sutiles colores en los laterales. Cuenta con delicados cordones con borlas blancas en el cuello y flecos inferiores que añaden textura y movimiento a esta prenda sofisticada."
+  },
+  {
+    id: 14,
+    name: "Poncho Azul Jaspeado con Capucha y Motivos de Llama",
+    price: 100.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho4.jpg",
+    description: "Atractivo poncho azul jaspeado o gris azulado con capucha. Presenta como motivo principal grandes figuras de llamas enfrentadas en color blanco, acompañadas de patrones geométricos tipo zigzag y estrellas andinas en el pecho y hombros. Terminado con gruesos flecos blancos y cordones con borlas, es una pieza abrigadora y de gran presencia visual."
+  },
+  {
+    id: 15,
+    name: "Poncho Rosa Jaspeado con Capucha y Motivo Tumi",
+    price: 100.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho5.jpg",
+    description: "Poncho con capucha en una suave y cálida tonalidad rosa o salmón jaspeado. Su tejido revela complejos y elegantes motivos de iconografía andina precolombina en blanco, incluyendo deidades o el tradicional Tumi. Sus acabados incluyen cordones con borlas en la capucha y flecos blancos en el borde inferior, brindando un estilo femenino y culturalmente rico."
+  },
+  {
+    id: 16,
+    name: "Poncho Turquesa con Capucha, Tumi y Franjas Degradé",
+    price: 100.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho6.jpg",
+    description: "Vibrante poncho color turquesa intenso con capucha, protagonizado por la imponente figura de un Tumi o deidad inca en el centro. Flanqueado por hermosas franjas verticales con efecto degradé en tonos cálidos, rematadas con motivos de olas andinas. Decorado con cordones de borlas blancas y flecos multicolores, es una prenda que destaca por su riqueza cromática y simbólica."
+  },
+  {
+    id: 17,
+    name: "Poncho Artesanal Verde Menta con Mangas y Diseño de Picaflores",
+    price: 100.00,
+    category: "Ponchos Con Manga",
+    image: "/productos/ponchos_manga/poncho_manga1.jpg",
+    description: "Hermoso poncho tejido a mano que destaca por su delicado diseño primaveral de picaflores y flores rosadas sobre un fondo en tonos verde menta, blanco y gris. Cuenta con mangas para mayor comodidad y un cuello alto abrigador adornado con finas borlas y detalles de grecas en los bordes. Una prenda suave, detallada y perfecta para lucir un estilo andino moderno."
+  },
 ];
