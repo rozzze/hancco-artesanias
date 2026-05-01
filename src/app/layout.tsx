@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hancco Artesanías | Arequipa",
+  applicationName: "Hancco Artesanías",
   description: "Descubre prendas de alpaca, ponchos, chullos y lo mejor de la artesanía arequipeña hecha a mano. Diseños únicos y exclusivos en Hancco Artesanías.",
   keywords: ["Hancco Artesanias", "Artesanía Arequipa", "Prendas de alpaca", "Chompas andinas", "Ponchos con capucha", "Chullos peruanos", "Artesanía peruana"],
   openGraph: {
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: "Lo mejor en prendas de alpaca y artesanía arequipeña hecha a mano.",
     type: "website",
     locale: "es_PE",
-    url: "https://hanccoartesanias.vercel.app/",
+    url: "https://hancco-artesanias.vercel.app/",
     siteName: "Hancco Artesanías",
   },
   verification: {
@@ -36,8 +37,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Hancco Artesanías",
+    "url": "https://hancco-artesanias.vercel.app/"
+  };
+
   return (
     <html lang="es">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50`}
       >
