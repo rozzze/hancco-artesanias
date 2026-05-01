@@ -9,6 +9,7 @@ export default function Navbar() {
   const links = [
     { name: "Inicio", href: "/" },
     { name: "Catálogo", href: "/catalogo" },
+    { name: "Creador de la página", href: "/creditos" },
   ];
 
   return (
