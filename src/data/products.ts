@@ -148,5 +148,61 @@ export const products: Product[] = [
     category: "Ponchos",
     image: "/productos/ponchos/poncho7.jpg",
     description: "Hermoso poncho tejido a mano que destaca por su delicado diseño primaveral de picaflores y flores rosadas sobre un fondo en tonos verde menta, blanco y gris. Cuenta con mangas para mayor comodidad y un cuello alto abrigador adornado con finas borlas y detalles de grecas en los bordes. Una prenda suave, detallada y perfecta para lucir un estilo andino moderno."
+  },
+  {
+    id: 19,
+    name: "Poncho Artesanal Blanco con Mangas y Diseño Andino de Invierno",
+    price: 40.00,
+    category: "Ponchos Con Manga",
+    image: "/productos/ponchos_manga/poncho_manga2.jpg",
+    description: "Es un poncho tejido de estilo andino en colores gris y blanco. La prenda cuenta con un cuello alto y aberturas para los brazos que simulan mangas. Su diseño destaca por los patrones tradicionales de invierno, incluyendo figuras de llamas, copos de nieve y grecas geométricas. Ideal para mantenerse abrigado en climas fríos."
+  },
+  {
+    id: 20,
+    name: "Poncho Artesanal Rosa con Mangas color Plomo",
+    price: 40.00,
+    category: "Ponchos Con Manga",
+    image: "/productos/ponchos_manga/poncho_manga3.jpg",
+    description: "Aquí tienes la imagen del poncho. He conservado el diseño exacto en gris y blanco sobre el maniquí de estudio, pero he refinado la iluminación y los detalles de textura para que el patrón de llamas, copos de nieve y grecas geométricas se vea más nítido y claro. También he incluido la base de madera y el soporte del maniquí de forma más definida."
+  },
+  {
+    id: 21,
+    name: "Poncho de Lana con Llamas y Estrellas en Rojo Vibrante",
+    price: 40.00,
+    category: "Ponchos Con Manga",
+    image: "/productos/ponchos_manga/poncho_manga4.jpg",
+    description: "Este poncho tejido de lana de alta calidad en rojo brillante cuenta con un acogedor cuello alto y puños acanalados. Su diseño presenta intrincados patrones negros de llamas y estrellas andinas geométricas, perfecto para el frío."
+  },
+  {
+    id: 22,
+    name: "Poncho Andino Tejido con Capucha y Flecos Arcoíris",
+    price: 40.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho8.jpg",
+    description: "Poncho andino tejido a mano en vibrantes tonos magenta y fucsia con patrones geométricos tradicionales. Cuenta con una práctica capucha, dos pompones de colores en el cuello y un fleco inferior de arcoíris. Prenda única, abrigada y llena de color."
+  },
+  {
+    id: 23,
+    name: "Poncho Blanco Artesanal con Capucha y Flecos",
+    price: 45.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho9.jpg",
+    description: "Prenda artesanal tejida en blanco natural con textura visible. Este poncho tradicional cuenta con una práctica capucha, cordones decorativos rematados con pompones y largos flecos gruesos a lo largo de todo su borde inferior. Un diseño cómodo y abrigado."
+  },
+  {
+    id: 24,
+    name: "Poncho Andino Rosa Pastel con Capucha y Franja Decorativa",
+    price: 40.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho10.jpg",
+    description: "Poncho tejido en un suave tono rosa pastel, equipado con capucha y cordones adornados con pompones blancos. Destaca por una llamativa franja con coloridos patrones geométricos tradicionales y está rematado con largos flecos blancos en su borde inferior. Una prenda cálida, cómoda y con un toque delicado."
+  },
+  {
+    id: 25,
+    name: "Chompa Tejida a Rayas con Diseño Andino",
+    price: 30.00,
+    category: "Chompas",
+    image: "/productos/chompas/chompa4.jpg",
+    description: "Un suéter suave y abrigador que combina amplios bloques de color en tonos rosa, blanco y gris. En la parte superior del pecho destaca un hermoso patrón tradicional con figuras de llamas y grecas geométricas en blanco. Su diseño clásico de cuello redondo, junto con los puños y el dobladillo acanalados, lo hacen perfecto para mantener la calidez en los días fríos con un estilo casual."
   }
 ];
