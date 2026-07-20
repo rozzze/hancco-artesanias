@@ -6,11 +6,11 @@ export interface Product {
   price: number;
   category: string;
   image: string;
-  description: string; // <--- Nuevo campo añadido
+  description: string;
 }
 
 export const products: Product[] = [
-  // --- CHOMPAS ---
+
   {
     id: 1,
     name: "Chompa Andina Lila con Motivos de Alpacas",
@@ -204,5 +204,61 @@ export const products: Product[] = [
     category: "Chompas",
     image: "/productos/chompas/chompa4.jpg",
     description: "Un suéter suave y abrigador que combina amplios bloques de color en tonos rosa, blanco y gris. En la parte superior del pecho destaca un hermoso patrón tradicional con figuras de llamas y grecas geométricas en blanco. Su diseño clásico de cuello redondo, junto con los puños y el dobladillo acanalados, lo hacen perfecto para mantener la calidez en los días fríos con un estilo casual."
-  }
+  },
+  {
+    id: 26,
+    name: "Poncho Andino Azul Oscuro con Capucha y Diseño de Llama",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho11.jpg",
+    description: "Un llamativo poncho tejido en un profundo tono azul oscuro, equipado con capucha y gruesos flecos en el borde inferior. Su diseño central destaca por la detallada ilustración de una llama andina adornada con montañas de fondo, enmarcada por elegantes cenefas con motivos florales y geométricos en tonos crema y turquesa. Una prenda abrigadora con mucho carácter cultural."
+  },
+  {
+    id: 27,
+    name: "Poncho Andino Azul con Motivos Incas y Capucha",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho12.jpg",
+    description: "Poncho tejido en azul oscuro con capucha y un detalle de botón en el cuello. Destaca por su espectacular diseño tipo tapiz, que incluye una franja central multicolor y elaborados motivos de la cultura andina como llamas, figuras incas, el sol y grecas geométricas. Está rematado con flecos en el borde inferior, ofreciendo una prenda tradicional muy abrigadora y llena de detalles."
+  },
+  {
+    id: 28,
+    name: "Poncho Andino Bicolor con Capucha y Motivos de Llama",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho13.jpg",
+    description: "Elegante poncho tejido que combina un panel central gris oscuro con laterales en tono burdeos o vino. Cuenta con una cómoda capucha y botones de madera en el cuello. Su diseño destaca por las tradicionales grecas verticales, figuras de llamas y símbolos andinos en contraste crema, rematado con flecos a juego en el borde inferior. Una prenda ideal para lucir un estilo cultural y abrigador."
+  },
+  {
+    id: 29,
+    name: "Poncho Andino Blanco y Negro con Motivos Precolombinos",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho14.jpg",
+    description: "Un llamativo poncho tejido que destaca por su diseño de alto contraste en blanco y negro. Su patrón está ricamente ilustrado con motivos culturales andinos, incluyendo figuras detalladas de llamas, símbolos geométricos y representaciones tradicionales precolombinas. Está rematado con finos flecos en el borde inferior, siendo una prenda abrigadora que resalta por su gran identidad cultural."
+  },
+  {
+    id: 30,
+    name: "Poncho Andino Negro con Paisaje de Llamas y Capucha",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho15.jpg",
+    description: "Hermoso poncho tejido sobre una base negra, que destaca por su detallado diseño escénico en tonos blanco y gris. Muestra un pintoresco paisaje andino con llamas adultas y crías rodeadas de montañas, nubes y aves en vuelo. Cuenta con una cómoda capucha con detalles geométricos y finaliza con una guarda de pequeñas siluetas de llamas y flecos tradicionales en el borde inferior. Una prenda muy abrigadora con gran riqueza visual."
+  },
+  {
+    id: 31,
+    name: "Poncho Andino Granate con Diseño de Llamas y Capucha",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho16.jpg",
+    description: "Elegante poncho tejido en un rico tono granate, protagonizado por un diseño central de grandes y detalladas llamas andinas en contraste crema. Incluye una cómoda capucha con cierre de botón en el cuello, patrones geométricos en forma de 'V' en el pecho y tradicionales grecas a lo largo de sus laterales. Rematado con flecos a tono en el borde inferior, es una prenda cálida que destaca por su vistosa identidad cultural."
+  },
+  {
+    id: 32,
+    name: "Poncho Andino Granate con Diseño de Llamas y Capucha",
+    price: 0.00,
+    category: "Ponchos",
+    image: "/productos/ponchos/poncho16.jpg",
+    description: "Elegante poncho tejido en un rico tono granate, protagonizado por un diseño central de grandes y detalladas llamas andinas en contraste crema. Incluye una cómoda capucha con cierre de botón en el cuello, patrones geométricos en forma de 'V' en el pecho y tradicionales grecas a lo largo de sus laterales. Rematado con flecos a tono en el borde inferior, es una prenda cálida que destaca por su vistosa identidad cultural."
+  },
 ];
